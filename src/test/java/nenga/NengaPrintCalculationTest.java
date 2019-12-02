@@ -91,7 +91,6 @@ class NengaPrintCalculationTest {
 			assertEquals(11847, price);
 		}
 
-		@Disabled
 		@Test
 		void _1001枚の時の金額() {
 			int price = target.calc(1001, earlyRequestDate);
